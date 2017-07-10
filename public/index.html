@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Piper chat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+<h1>Welcome to Piper Chat</h1>
+    <div id="piper-chat">
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        </div>
+        <input id="handle" type="text" placeholder="Username" />
+        <input id="message" type="text" placeholder="Message"/>
+        <button id="send">Send</button>
+    </div>
+
+<script src="chat.js"></script>
+</body>
+</html>
